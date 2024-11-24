@@ -34,7 +34,7 @@ def print_with_delay_V_faster(text):
     return ''
 
 
-print_with_delay_V_faster(Fore.MAGENTA + pyfiglet.figlet_format(" WELCOME to - RANDNUM - GAME", width=200) + Fore.RESET)
+print_with_delay_V_faster(Fore.MAGENTA + pyfiglet.figlet_format(" WELCOME to - Guess the Number Game - GAME", width=200) + Fore.RESET)
 time.sleep(.6)
 while flag2:
 
